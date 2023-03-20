@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("fon.png");
+    font-family: 'Shantell Sans', cursive;
+
+}
+#root{
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+#heading{
+    margin-bottom: 60px;
+}
+form {
+    width: 600px;
+    display: inline-block;
+}
+form ol {
+    list-style-position: inside;
+    background: #057ea3a8;
+    text-align: left;
+    border-radius: 25px;
+    padding: 10px;
+    list-style: none;
+}
+form li {
+    background-color: #fff;
+    border-radius: 15px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+form li p {
+    display: inline-block;
+    line-height: 40px;
+    width: calc(100% - 80px);
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+}
+form button {
+    display: inline-block;
+    /* margin-right: 20px; */
+    background: #fff;
+    border: 1px solid #057ea3a8;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    /* margin-top: 15px; */
+    border-radius: 5px;
+    transition: 0.5s;
+}
+form button:hover {
+    border: 1px solid #ccc;
+    opacity: 1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+form input{
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 30px;
+    height: 40px;
+    border: 1px solid #057ea3a8;
+    text-align: center;
+
+    border-radius: 50px;
+    margin-bottom: 30px;
+    width: calc(100% - 80px);
+    box-sizing: border-box;
+}
